@@ -7,6 +7,3 @@ verify_ssl = true
 
 [packages]
 scrapy = "*"
-
-[requires]
-python_version = "3.0"
