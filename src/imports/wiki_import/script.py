@@ -47,7 +47,8 @@ for item in file_items:
     data.append({
         'language': item['language'],
         'name': item['title'],
-        'text_raw': item['raw_text']
+        'text_raw': item['raw_text'],
+        'source': 'wikipedia.sk'
     })
 
     # if the bulk reaches the limit, bulk index the data
