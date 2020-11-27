@@ -3,26 +3,24 @@ Crawler use using [Scrapy](https://scrapy.org) framework for python.
 
 ### Prerequisites
  - Python ^3.0
- - [Anaconda](https://www.anaconda.com/products/individual) 
+ - [Pipenv](https://pypi.org/project/pipenv/) 
  
 ## Installation 
 
-1. Open Anaconda Prompt where `requirements.yml` is
-1. Create new env for Scrapy crawler with all dependencies
+1. Install all dependencies  
 
     ```
-    conda env create -f requirements.yml
+    pipenv install
     ```
 
-
-##Usage
+## Usage
  
-1. Activate the conda environment 
+1. Activate the pipenv environment 
     ```
-    conda activate scrapy
+    pipenv shell
     ```
 
-1. Use this command in scrapy environment to run crawler:
+1. Use this command in pipenv environment to run the crawler:
 
     ```
     scrapy runspider scraper.py
