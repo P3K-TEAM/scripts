@@ -48,7 +48,8 @@ for item in file_items:
         'language': item['language'],
         'name': item['title'],
         'access_url': item['url'],
-        'text_raw': item['text']
+        'text_raw': item['text'],
+        'source': 'referaty.sk'
     })
 
     # if the bulk reaches the limit, bulk index the data
